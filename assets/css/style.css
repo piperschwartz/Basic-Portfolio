@@ -111,6 +111,8 @@ hr {
     float: left;
     margin: 15px;
     transform: rotate(180deg);
+    height: 300px;
+    width; 400px;
 }
 
 p {
