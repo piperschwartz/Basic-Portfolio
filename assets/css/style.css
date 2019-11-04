@@ -1,9 +1,9 @@
 body {
-    background-image: url("assets/images/circuit.jpg");
+    background-image: url("/Users/piperschwartz/CodingBootcamp/Basic-Portfolio/assets/images/circuit.jpg");
     background-repeat: repeat;
 }
 
-ul {
+#navlinks {
     list-style-type: none;
     display: inline;
     padding-inline-start: 800px;
@@ -36,6 +36,8 @@ ul {
 .top {
     display: inline;
     position: top;
+    margin-right: 15px;
+    line-height: 4;
     
 }
 
@@ -54,17 +56,17 @@ section {
 
 footer {
     background-color: #666666;
-    padding: 0;
     height: 40px;
-    width: 100% ;
     text-align: center;
-    bottom: 0;
     left: 0px;
-    right:0px;
-    position: absolute;
+    /* right:0px; */
     border-top: 8px solid #4aaaa5;
     position: fixed;
     color: white;
+    padding: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 2;
 }
 
 div {
@@ -91,7 +93,7 @@ h2 {
 h1 {
     color: white;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Oswald', sans-serif;
     height: 100px;
     width: 200px;
     text-align: center;
@@ -99,8 +101,10 @@ h1 {
     padding: 0;
     margin: 0;
     float: left;
+    line-height: 3;
 
 }
+
 
 .piccontainer{
     height: 250px;
@@ -162,9 +166,6 @@ p {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-/*input[type="text"] {
-    width: 917px;}*/
-
 
 .button {
     background-color: #4aaaa5;
@@ -186,7 +187,7 @@ p {
     
  }
 
- .textblock2 {
+ /*.textblock2 {
     background-color: #4aaaa5;
     position: absolute;    
     height: 40px;
@@ -225,12 +226,17 @@ p {
     margin: auto;
     left: 812px;
     bottom: 60px;
-    color: white;
-    
-    
+    color: white;   
  }
+*/
+
 
  .middle {
-     margin: 100px;
+     margin: 120px;
      padding: 30px;
+ }
+
+ .infolink {
+     float: left;
+     display:
  }
