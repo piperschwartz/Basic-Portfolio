@@ -1,5 +1,5 @@
 body {
-    background-image: url("/Users/piperschwartz/CodingBootcamp/Basic-Portfolio/assets/images/circuit.jpg");
+    background-image: url('../../assets/images/circuit.jpg');
     background-repeat: repeat;
 }
 
