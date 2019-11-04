@@ -1,5 +1,5 @@
 body {
-    background-image: url('../../assets/images/circuit.jpg');
+    background-image: url("../../58901929-grey-wall-background-abstract-light-grunge-texture.jpg");
     background-repeat: repeat;
 }
 
@@ -166,6 +166,9 @@ p {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+.infolink {
+    float: left;
+}
 
 .button {
     background-color: #4aaaa5;
@@ -236,7 +239,3 @@ p {
      padding: 30px;
  }
 
- .infolink {
-     float: left;
-     display:
- }
